@@ -1,0 +1,12 @@
+C:\Users\barna\PhpstormProjects\moybb\MOYBB.Core\bin\Debug\net9.0\MOYBB.Core.deps.json
+C:\Users\barna\PhpstormProjects\moybb\MOYBB.Core\bin\Debug\net9.0\MOYBB.Core.dll
+C:\Users\barna\PhpstormProjects\moybb\MOYBB.Core\bin\Debug\net9.0\MOYBB.Core.pdb
+C:\Users\barna\PhpstormProjects\moybb\MOYBB.Core\obj\Debug\net9.0\MOYBB.Core.csproj.AssemblyReference.cache
+C:\Users\barna\PhpstormProjects\moybb\MOYBB.Core\obj\Debug\net9.0\MOYBB.Core.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\barna\PhpstormProjects\moybb\MOYBB.Core\obj\Debug\net9.0\MOYBB.Core.AssemblyInfoInputs.cache
+C:\Users\barna\PhpstormProjects\moybb\MOYBB.Core\obj\Debug\net9.0\MOYBB.Core.AssemblyInfo.cs
+C:\Users\barna\PhpstormProjects\moybb\MOYBB.Core\obj\Debug\net9.0\MOYBB.Core.csproj.CoreCompileInputs.cache
+C:\Users\barna\PhpstormProjects\moybb\MOYBB.Core\obj\Debug\net9.0\MOYBB.Core.dll
+C:\Users\barna\PhpstormProjects\moybb\MOYBB.Core\obj\Debug\net9.0\refint\MOYBB.Core.dll
+C:\Users\barna\PhpstormProjects\moybb\MOYBB.Core\obj\Debug\net9.0\MOYBB.Core.pdb
+C:\Users\barna\PhpstormProjects\moybb\MOYBB.Core\obj\Debug\net9.0\ref\MOYBB.Core.dll

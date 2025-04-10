@@ -1,0 +1,15 @@
+C:\Users\barna\PhpstormProjects\moybb\MOYBB.Infrastructure\bin\Debug\net9.0\MOYBB.Infrastructure.deps.json
+C:\Users\barna\PhpstormProjects\moybb\MOYBB.Infrastructure\bin\Debug\net9.0\MOYBB.Infrastructure.dll
+C:\Users\barna\PhpstormProjects\moybb\MOYBB.Infrastructure\bin\Debug\net9.0\MOYBB.Infrastructure.pdb
+C:\Users\barna\PhpstormProjects\moybb\MOYBB.Infrastructure\bin\Debug\net9.0\MOYBB.Core.dll
+C:\Users\barna\PhpstormProjects\moybb\MOYBB.Infrastructure\bin\Debug\net9.0\MOYBB.Core.pdb
+C:\Users\barna\PhpstormProjects\moybb\MOYBB.Infrastructure\obj\Debug\net9.0\MOYBB.Infrastructure.csproj.AssemblyReference.cache
+C:\Users\barna\PhpstormProjects\moybb\MOYBB.Infrastructure\obj\Debug\net9.0\MOYBB.Infrastructure.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\barna\PhpstormProjects\moybb\MOYBB.Infrastructure\obj\Debug\net9.0\MOYBB.Infrastructure.AssemblyInfoInputs.cache
+C:\Users\barna\PhpstormProjects\moybb\MOYBB.Infrastructure\obj\Debug\net9.0\MOYBB.Infrastructure.AssemblyInfo.cs
+C:\Users\barna\PhpstormProjects\moybb\MOYBB.Infrastructure\obj\Debug\net9.0\MOYBB.Infrastructure.csproj.CoreCompileInputs.cache
+C:\Users\barna\PhpstormProjects\moybb\MOYBB.Infrastructure\obj\Debug\net9.0\MOYBB.In.5B2C7019.Up2Date
+C:\Users\barna\PhpstormProjects\moybb\MOYBB.Infrastructure\obj\Debug\net9.0\MOYBB.Infrastructure.dll
+C:\Users\barna\PhpstormProjects\moybb\MOYBB.Infrastructure\obj\Debug\net9.0\refint\MOYBB.Infrastructure.dll
+C:\Users\barna\PhpstormProjects\moybb\MOYBB.Infrastructure\obj\Debug\net9.0\MOYBB.Infrastructure.pdb
+C:\Users\barna\PhpstormProjects\moybb\MOYBB.Infrastructure\obj\Debug\net9.0\ref\MOYBB.Infrastructure.dll

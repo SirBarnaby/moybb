@@ -1,0 +1,6 @@
+@MOYBB.API_HostAddress = http://localhost:5286
+
+GET {{MOYBB.API_HostAddress}}/weatherforecast/
+Accept: application/json
+
+###
