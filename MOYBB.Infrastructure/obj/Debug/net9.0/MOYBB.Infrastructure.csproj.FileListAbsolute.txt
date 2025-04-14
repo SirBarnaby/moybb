@@ -13,3 +13,4 @@ C:\Users\barna\PhpstormProjects\moybb\MOYBB.Infrastructure\obj\Debug\net9.0\MOYB
 C:\Users\barna\PhpstormProjects\moybb\MOYBB.Infrastructure\obj\Debug\net9.0\refint\MOYBB.Infrastructure.dll
 C:\Users\barna\PhpstormProjects\moybb\MOYBB.Infrastructure\obj\Debug\net9.0\MOYBB.Infrastructure.pdb
 C:\Users\barna\PhpstormProjects\moybb\MOYBB.Infrastructure\obj\Debug\net9.0\ref\MOYBB.Infrastructure.dll
+C:\Users\barna\PhpstormProjects\moybb\MOYBB.Infrastructure\obj\Debug\net9.0\MOYBB.Infrastructure.sourcelink.json

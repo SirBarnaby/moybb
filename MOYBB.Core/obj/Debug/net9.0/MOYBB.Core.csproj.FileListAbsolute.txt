@@ -10,3 +10,4 @@ C:\Users\barna\PhpstormProjects\moybb\MOYBB.Core\obj\Debug\net9.0\MOYBB.Core.dll
 C:\Users\barna\PhpstormProjects\moybb\MOYBB.Core\obj\Debug\net9.0\refint\MOYBB.Core.dll
 C:\Users\barna\PhpstormProjects\moybb\MOYBB.Core\obj\Debug\net9.0\MOYBB.Core.pdb
 C:\Users\barna\PhpstormProjects\moybb\MOYBB.Core\obj\Debug\net9.0\ref\MOYBB.Core.dll
+C:\Users\barna\PhpstormProjects\moybb\MOYBB.Core\obj\Debug\net9.0\MOYBB.Core.sourcelink.json

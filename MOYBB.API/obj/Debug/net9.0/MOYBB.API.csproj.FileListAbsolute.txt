@@ -62,3 +62,4 @@ C:\Users\barna\PhpstormProjects\moybb\MOYBB.API\obj\Debug\net9.0\refint\MOYBB.AP
 C:\Users\barna\PhpstormProjects\moybb\MOYBB.API\obj\Debug\net9.0\MOYBB.API.pdb
 C:\Users\barna\PhpstormProjects\moybb\MOYBB.API\obj\Debug\net9.0\MOYBB.API.genruntimeconfig.cache
 C:\Users\barna\PhpstormProjects\moybb\MOYBB.API\obj\Debug\net9.0\ref\MOYBB.API.dll
+C:\Users\barna\PhpstormProjects\moybb\MOYBB.API\obj\Debug\net9.0\MOYBB.API.sourcelink.json

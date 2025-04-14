@@ -15,7 +15,7 @@ namespace MOYBB.Infrastructure.Repositories
         {
         }
 
-        public async Task<IEnumerable<Muscle>> GetMusclesByExerciseAsync(Guid exerciseId)
+        public async Task<IEnumerable<Muscle>> GetMusclesByExerciseAsync(int exerciseId)
         {
             return await _context.MuscleInExercises
                 .Where(mie => mie.ExerciseId == exerciseId)

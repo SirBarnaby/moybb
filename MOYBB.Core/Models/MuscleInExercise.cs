@@ -4,8 +4,8 @@ namespace MOYBB.Core.Models
 {
     public class MuscleInExercise
     {
-        public Guid ExerciseId { get; set; }
-        public Guid MuscleId { get; set; }
+        public required int ExerciseId { get; set; }
+        public required int MuscleId { get; set; }
         public string? ContractionType { get; set; }
         public string? FatigueAccumulationFactor { get; set; }
         public string? MuscleMovementCategory { get; set; }

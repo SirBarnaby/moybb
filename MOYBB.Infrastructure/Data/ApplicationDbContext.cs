@@ -79,12 +79,14 @@ namespace MOYBB.Infrastructure.Data
                 entity.HasKey(mie => new { mie.ExerciseId, mie.MuscleId });
 
                 entity.HasOne(mie => mie.Exercise)
-                    .WithMany()
-                    .HasForeignKey(mie => mie.ExerciseId);
+                    .WithMany(e => e.MuscleInExercises)
+                    .HasForeignKey(mie => mie.ExerciseId)
+                    .OnDelete(DeleteBehavior.Cascade);
 
                 entity.HasOne(mie => mie.Muscle)
                     .WithMany()
-                    .HasForeignKey(mie => mie.MuscleId);
+                    .HasForeignKey(mie => mie.MuscleId)
+                    .OnDelete(DeleteBehavior.Cascade);
             });
         }
 

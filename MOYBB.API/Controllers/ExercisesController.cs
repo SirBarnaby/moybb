@@ -37,7 +37,7 @@ namespace MOYBB.API.Controllers
         }
 
         [HttpGet("{id}")]
-        public async Task<ActionResult<Exercise>> GetExerciseById(Guid id)
+        public async Task<ActionResult<Exercise>> GetExerciseById(int id)
         {
             try
             {
@@ -71,7 +71,7 @@ namespace MOYBB.API.Controllers
         }
 
         [HttpGet("by-muscle/{muscleId}")]
-        public async Task<ActionResult<IEnumerable<Exercise>>> GetExercisesByMuscle(Guid muscleId)
+        public async Task<ActionResult<IEnumerable<Exercise>>> GetExercisesByMuscle(int muscleId)
         {
             try
             {

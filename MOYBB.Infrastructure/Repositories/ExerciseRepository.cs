@@ -15,11 +15,28 @@ namespace MOYBB.Infrastructure.Repositories
         {
         }
 
-        public async Task<IEnumerable<Exercise>> GetExercisesByMuscleAsync(Guid muscleId)
+        public override async Task<IEnumerable<Exercise>> GetAllAsync()
+        {
+            return await _dbSet
+                .Include(e => e.MuscleInExercises)
+                .ToListAsync();
+        }
+
+        public override async Task<Exercise?> GetByIdAsync(int id)
+        {
+            return await _dbSet
+                .Include(e => e.MuscleInExercises)
+                .FirstOrDefaultAsync(e => e.Id == id);
+        }
+
+        public async Task<IEnumerable<Exercise>> GetExercisesByMuscleAsync(int muscleId)
         {
             return await _context.MuscleInExercises
+                .Include(mie => mie.Exercise)
+                .ThenInclude(e => e.MuscleInExercises)
                 .Where(mie => mie.MuscleId == muscleId)
                 .Select(mie => mie.Exercise)
+                .OrderByDescending(e => e.Popularity)
                 .ToListAsync();
         }
 
@@ -29,8 +46,9 @@ namespace MOYBB.Infrastructure.Repositories
                 return await GetAllAsync();
 
             return await _dbSet
-                .Where(e => e.Name.Contains(searchTerm) || 
-                           (e.Description != null && e.Description.Contains(searchTerm)))
+                .Include(e => e.MuscleInExercises)
+                .Where(e => e.Name.ToLower().Contains(searchTerm.ToLower())) // Lowercase check
+                .OrderByDescending(e => e.Popularity)
                 .ToListAsync();
         }
 
@@ -40,7 +58,9 @@ namespace MOYBB.Infrastructure.Repositories
                 return await GetAllAsync();
 
             return await _dbSet
+                .Include(e => e.MuscleInExercises)
                 .Where(e => e.MainMuscle != null && e.MainMuscle.ToLower().Contains(mainMuscle.ToLower()))
+                .OrderByDescending(e => e.Popularity)
                 .ToListAsync();
         }
     }
