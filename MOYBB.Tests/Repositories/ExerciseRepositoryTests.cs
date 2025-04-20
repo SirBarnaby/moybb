@@ -33,7 +33,7 @@ namespace MOYBB.Tests.Repositories
             // Arrange
             var exercise = new Exercise
             {
-                Id = Guid.NewGuid(),
+                Id = 0,
                 Name = "Test Exercise",
                 Description = "Test Description"
             };
@@ -53,7 +53,7 @@ namespace MOYBB.Tests.Repositories
         public async Task GetByIdAsync_ReturnsNull_WhenExerciseDoesNotExist()
         {
             // Act
-            var result = await _repository.GetByIdAsync(Guid.NewGuid());
+            var result = await _repository.GetByIdAsync(0);
 
             // Assert
             Assert.Null(result);

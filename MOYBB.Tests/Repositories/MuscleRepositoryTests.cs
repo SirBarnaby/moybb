@@ -34,7 +34,7 @@ namespace MOYBB.Tests.Repositories
             // Arrange
             var muscle = new Muscle
             {
-                Id = Guid.NewGuid(),
+                Id = 0,
                 Name = "Test Muscle",
                 Description = "Test Description"
             };
@@ -54,7 +54,7 @@ namespace MOYBB.Tests.Repositories
         public async Task GetByIdAsync_ReturnsNull_WhenMuscleDoesNotExist()
         {
             // Act
-            var result = await _repository.GetByIdAsync(Guid.NewGuid());
+            var result = await _repository.GetByIdAsync(0);
 
             // Assert
             Assert.Null(result);
@@ -64,9 +64,9 @@ namespace MOYBB.Tests.Repositories
         public async Task SearchMusclesAsync_ReturnsMuscles_WhenSearchTermMatches()
         {
             // Arrange
-            var muscle1 = new Muscle { Id = Guid.NewGuid(), Name = "Biceps", Description = "Arm muscle" };
-            var muscle2 = new Muscle { Id = Guid.NewGuid(), Name = "Triceps", Description = "Arm muscle" };
-            var muscle3 = new Muscle { Id = Guid.NewGuid(), Name = "Quadriceps", Description = "Leg muscle" };
+            var muscle1 = new Muscle { Id = 0, Name = "Biceps", Description = "Arm muscle" };
+            var muscle2 = new Muscle { Id = 1, Name = "Triceps", Description = "Arm muscle" };
+            var muscle3 = new Muscle { Id = 2, Name = "Quadriceps", Description = "Leg muscle" };
 
             await _context.Muscles.AddRangeAsync(muscle1, muscle2, muscle3);
             await _context.SaveChangesAsync();
