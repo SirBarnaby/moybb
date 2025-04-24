@@ -13,7 +13,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("MOYBB.API")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+901855c8b1adb71ff1b52c9ebdc1cabca0887f45")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+27d2584ba966bf47ffc526c0d8ecd5e6670c8c0a")]
 [assembly: System.Reflection.AssemblyProductAttribute("MOYBB.API")]
 [assembly: System.Reflection.AssemblyTitleAttribute("MOYBB.API")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]
